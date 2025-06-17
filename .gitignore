@@ -1,0 +1,8 @@
+# Ignore build output and local config
+mergeplease
+cmd/mergeplease
+*.env
+.env*
+config.yaml
+# Ignore user config
+/.merge/

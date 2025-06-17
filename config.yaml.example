@@ -1,0 +1,15 @@
+# config.yaml example for mergeplease
+
+gitlab:
+  - api: https://gitlab.com/api/v4
+    token: your_gitlab1_private_token
+  - api: https://your.other.gitlab.instance/api/v4
+    token: your_gitlab2_private_token
+slack_webhook: "https://hooks.slack.com/triggers/..."
+slack_messages:
+  - Merge please!
+  - Ready for review!
+  - Can you take a look?
+  - PTAL
+  - Time to merge!
+mr_picker_count: 5
